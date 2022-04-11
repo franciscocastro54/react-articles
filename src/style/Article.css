@@ -1,0 +1,52 @@
+:root{
+    --grape:#94618E;
+    --eggplant: #94274A;
+    --sand: #F4DECB;
+    --shell: #F8EEE7;
+}
+.article-container{
+    display: grid;
+    grid-template-columns: 50% auto ;
+    width: 80%;
+    min-width: 550px;
+    height: 20rem;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.375);
+    margin-bottom: 3rem;
+}
+
+.img-article{
+    width: 140%;
+    margin-left: -40%;
+    margin-top: -20%;
+    overflow: hidden;
+}
+
+.article-name{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.article-detail{
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 350;
+}
+
+.article-info{
+
+    padding: 1rem;
+    background: #94618E;
+    color: #F8EEE7;
+}
+
+.article-text{
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+}
