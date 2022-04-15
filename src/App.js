@@ -21,7 +21,7 @@ function App() {
       <div className='main-container'>
         <h1 className='title'>Bienvenidos</h1>
 
-        <ArticleList/>
+        
 
         <Button
           typeButton='primary-button'
@@ -49,6 +49,9 @@ function App() {
           text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt nisi nibh, eget ullamcorper diam malesuada at. Donec auctor blandit diam. Quisque nisi nisl, mollis in dapibus non, maximus mollis eros. Sed dignissim blandit tortor nec fringilla. Nulla ac turpis ultrices, mattis odio at, gravida leo. Suspendisse sit amet erat. '
         />
       </div>
+
+      <ArticleList/>
+
     </div>
   );
 }

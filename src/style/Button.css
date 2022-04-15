@@ -1,0 +1,19 @@
+:root{
+    --grape:#94618E;
+    --eggplant: #94274A;
+    --sand: #F4DECB;
+    --shell: #F8EEE7;
+}
+.primary-button{
+    padding: 1rem;
+    font-weight: bold;
+    color: var(--shell);
+    border: 1px solid transparent;
+    background: #94618E;
+    cursor: pointer;
+}
+
+.primary-button:hover{
+    color: var(--grape);
+    background: var(--shell);
+}

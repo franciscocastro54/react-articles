@@ -27,7 +27,7 @@ export function ArticleList() {
   return (
     <>
       <ArticleForm onSubmit={addArticle} />
-      <div className='article-container'>
+      <div className='list-container'>
         {
           articles.map((article) =>
             <Article
