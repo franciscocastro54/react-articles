@@ -8,8 +8,8 @@
     display: grid;
     grid-template-columns: 50% auto ;
     width: 80%;
-    min-width: 550px;
-    height: 20rem;
+    min-width: 1150px;
+    height: 53vh;
     margin-left: 0;
     padding: 0;
     overflow: hidden;
@@ -18,7 +18,8 @@
 }
 
 .img-article{
-    width: 140%;
+    width: 58vw;
+    min-width: 812px ;
     margin-left: -40%;
     margin-top: -20%;
     overflow: hidden;
@@ -27,7 +28,7 @@
 .article-name{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 600;
 
 }
@@ -49,4 +50,5 @@
     line-height: 1.5rem;
     font-weight: 400;
     text-align: justify;
+    
 }

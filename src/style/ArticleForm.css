@@ -13,13 +13,13 @@
 .article-form{
     margin: 2rem;
     text-align: center;
-    width: 40%;
+    width: 40vw;
     box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.375);
 }
 
 .article-inputs{
     display: grid;
-    grid-template-columns: 30% 20rem;
+    grid-template-columns: 30% auto;
     text-align: start;
     padding: 1rem;
 }
@@ -33,7 +33,7 @@
     height: 1.5rem;
     padding: 5px;
     border: 1px solid transparent;
-    width: calc(100% - 5px);
+    width: calc(25vw - 5px);
     font-size: 0.8rem;
 }
 
@@ -41,9 +41,9 @@
     font-size: 0.8rem;
     height: 5rem;
     max-height: 5rem;
-    max-width: 100%;
+    max-width: 25vw;
     min-height: 5rem;
-    min-width: 100%;
+    min-width: 25vw;
     border: 1px solid transparent;
     padding-left: 5px;
     padding-top: 5px;
@@ -62,4 +62,8 @@
 .primary-button:hover{
     color: var(--grape);
     background: var(--shell);
+}
+
+.primary-button:disabled {
+    opacity: 0.5;
 }
