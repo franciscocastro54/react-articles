@@ -9,18 +9,15 @@ export function ArticleList() {
 
   const addArticle = article => {
     
-    // article.text = article.text.trim() ? article.text.trim() : article.text;
-    // article.name = article.name.trim() ? article.name.trim() : article.name;
-    // article.detail = article.detail.trim() ? article.detail.trim() : article.detail; 
-    
     const articlesUpdated = [article, ...articles];
     setArticles(articlesUpdated);
+    console.log('articles', articles)
   }
 
-  const eraseArticle = id => {
-    const articlesUpdated = articles.filter(article => article.id !== id);
-    setArticles(articlesUpdated);
-  }
+  // const eraseArticle = id => {
+  //   const articlesUpdated = articles.filter(article => article.id !== id);
+  //   setArticles(articlesUpdated);
+  // }
 
   
   

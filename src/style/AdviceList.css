@@ -1,0 +1,22 @@
+
+:root{
+    --grape:#94618E;
+    --transparentGrape:#94618ee5;
+    --eggplant: #94274A;
+    --sand: #F4DECB;
+    --shell: #F8EEE7;
+}
+
+.advice-container{
+    display: grid;
+    grid-template-columns: auto;
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    margin-left: calc(34vw);
+    z-index: 50;
+
+}
+
+
+

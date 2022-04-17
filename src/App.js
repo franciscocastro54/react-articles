@@ -4,6 +4,8 @@ import {Article}  from './componentes/Article';
 import {Button}  from './componentes/Button';
 import {useState} from 'react';
 import {ArticleList} from './componentes/ArticleList';
+import {Advice} from './componentes/Advice';
+import { AdviceList } from './componentes/AdviceList';
 
 
 
@@ -52,6 +54,8 @@ function App() {
 
       <ArticleList/>
 
+      <AdviceList/>
+      
     </div>
   );
 }

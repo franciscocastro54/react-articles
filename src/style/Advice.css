@@ -1,0 +1,96 @@
+
+:root{
+    --grape:#94618E;
+    --transparentGrape:#94618ee5;
+    --eggplant: #94274A;
+    --sand: #F4DECB;
+    --shell: #F8EEE7;
+    --red: rgb(193, 78, 78);
+}
+
+.success.advice-container{
+    text-align: start;
+    color: var(--sand);
+    height: 5rem;
+    width: 30vw;
+
+}
+
+.success .info-container{
+    background: var(--eggplant);
+    color: var(--sand);
+    height: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.success .title-container{
+    background: var(--shell);
+    color: var(--eggplant);
+    height: 1.4rem;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.success .title-container button{
+    position: absolute;
+    margin-left: 26vw;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+    font-weight: 600;
+    color: var(--eggplant);
+    top: 0;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+    
+}
+
+
+
+.error.advice-container{
+    text-align: start;
+    color: var(--red);
+    height: 5rem;
+    width: 30vw;
+
+}
+
+.error .info-container{
+    background: var(--red);
+    color: var(--sand);
+    height: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.error .title-container{
+    background: var(--shell);
+    color: var(--eggplant);
+    height: 1.4rem;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.error .title-container button{
+    position: absolute;
+    margin-left: 26vw;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+    font-weight: 600;
+    color: var(--red);
+    top: 0;
+    margin-top: 0.5rem;
+    cursor: pointer;
+
+    
+}
+
