@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import "../style/ArticleForm.css";
 import { v4 as uuidv4 } from "uuid";
-import { validate } from "uuid";
+import { useLocalStorage } from "./useLocalStorage";
 
 export function ArticleForm(props) {
 
-  const [name, setName] = useState('');
+  const [name, setName] = useLocalStorage('name', '');
   const [detail, setDetail] = useState('');
-  const [text, setText] = useState('');
-
+  const [text, setText] = useState(''); 
 
 
   const handleSend = (e) => {
