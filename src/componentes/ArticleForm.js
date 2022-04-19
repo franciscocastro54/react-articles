@@ -6,8 +6,8 @@ import { useLocalStorage } from "./useLocalStorage";
 export function ArticleForm(props) {
 
   const [name, setName] = useLocalStorage('name', '');
-  const [detail, setDetail] = useState('');
-  const [text, setText] = useState(''); 
+  const [detail, setDetail] = useLocalStorage('detail','');
+  const [text, setText] = useLocalStorage('text',''); 
 
 
   const handleSend = (e) => {

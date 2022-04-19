@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import {ArticleForm} from './ArticleForm';
 import {Article} from './Article';
 import '../style/ArticleList.css';
+import { useLocalStorage } from './useLocalStorage';
 
 export function ArticleList() {
 
-  const [articles, setArticles] = useState([]);
+  const [articles, setArticles] = useLocalStorage('articles',[]);
 
   const addArticle = article => {
     
@@ -14,10 +15,10 @@ export function ArticleList() {
     console.log('articles', articles)
   }
 
-  // const eraseArticle = id => {
-  //   const articlesUpdated = articles.filter(article => article.id !== id);
-  //   setArticles(articlesUpdated);
-  // }
+  const eraseArticle = id => {
+    const articlesUpdated = articles.filter(article => article.id !== id);
+    setArticles(articlesUpdated);
+  }
 
   
   
@@ -34,7 +35,7 @@ export function ArticleList() {
               name={article.name}
               detail={article.detail}
               text={article.text}
-            //   eliminarTarea={eraseArticle} 
+              eraseArticle={eraseArticle}
             />
           ) 
         }

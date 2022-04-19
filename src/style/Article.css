@@ -52,3 +52,17 @@
     text-align: justify;
     
 }
+
+.close-button{
+    border-radius: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+    font-weight: 600;
+    color: var(--shell);
+    top: 0;
+    margin-top: 0.5rem;
+    margin-left: 90%;
+    cursor: pointer;
+    z-index: 100;
+    
+}
